@@ -1,0 +1,96 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Nata+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset & Global */
+*{padding: 0; margin: 0;}
+ul{list-style: none;}
+.safeArea{max-width: 65rem; margin: 0 auto;}
+h1{font-family: 'Poppins';}
+p{font-family: 'Nata Sans';}
+body{
+    background: #f8f8f8;
+    color: #040618;
+    margin: 0 auto;
+}
+
+/* Navigation Styling */
+.navigationContainer{position: sticky; top: 0;  background: #f5f5f5e0; backdrop-filter: blur(5px);}
+    nav{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 .5rem;
+        max-width: 70rem;
+        margin: 0 auto;
+    }
+        .navRight ul{display: flex;}
+        .navRight ul li a{
+            display: flex;
+            padding: 20px;
+            text-decoration: none;
+            color: #040618;
+        }
+
+/* Header Styling */
+.headerContainer{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+}
+    .headerContent{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+/* Project Styling */
+
+    .projectOverview{
+        text-align: center;
+    }
+    .projectPostContainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+        .projectPost{
+            padding: 1%;
+            max-width: 30%;
+            background: #ebedff;
+            border-radius: 1rem;
+        }
+        .projectThumb{
+            width: 100%;
+            aspect-ratio: 16/9;
+            border-radius: 1rem;
+        }
+        .projectPost button{
+            background: none;
+            padding: 1vw;
+            border: 1px solid #a9b2fc;
+            border-radius: 100rem;
+            color: #a9b2fc;
+        } .projectPost .btnHigh{background: #a9b2fc; color: #040618;}
+
+/* Baloon */
+.baloon{
+    display: flex;
+    max-width: max-content;
+    background: #ffdbdb;
+    align-items: center;
+    padding: 1%;
+    gap: 10px;
+    border-radius: .5rem;
+} 
+
+/* footer */
+.footerContainer{
+    background-image: linear-gradient( #f5f5f5, #dcd3ff);
+}
+    footer{
+        display: flex;
+        gap: 15vw;
+    }

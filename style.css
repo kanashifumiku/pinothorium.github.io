@@ -49,7 +49,7 @@ body{
     .btnScroll{
         font-size: 30px;
         margin-top: 1rem;
-        animation: fadeHeader 1s infinite alternate;
+        animation: fadeHeader 3s infinite alternate;
     }
 
 /* Project Styling */
@@ -100,4 +100,5 @@ body{
     footer{
         display: flex;
         gap: 10vw;
+
     }

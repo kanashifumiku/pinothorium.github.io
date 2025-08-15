@@ -1,0 +1,12 @@
+@keyframes fadeHeader{
+    0%{
+        color: rgb(199, 199, 199);
+    }
+    50%{
+        color: rgb(85, 95, 243);
+    }
+    100%{
+        color: rgb(85, 95, 243);
+        text-shadow: 0 0 20px rgb(85, 95, 243);
+    }
+}

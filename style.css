@@ -3,10 +3,11 @@
 
 /* Reset & Global */
 *{padding: 0; margin: 0;}
-html{scroll-behavior: smooth;}
+html{scroll-behavior: smooth; scrollbar-width: 1px;}
 ul{list-style: none;}
 .safeArea{max-width: 65rem; margin: 0 auto;}
 .divider{height: 5rem; width: auto;}
+.icoText{margin-right: .5vw;}
 h1{font-family: 'Poppins';}
 p{font-family: 'Nata Sans';}
 body{
@@ -14,6 +15,9 @@ body{
     color: #040618;
     margin: 0 auto;
 }
+
+/* Tech Ico Color */
+#html{color: #ff9900;} #css{color: #021bff;} #js{color: #e6ff02;}
 
 /* Navigation Styling */
 .navigationContainer{position: sticky; top: 0;  background: #f5f5f5e0; backdrop-filter: blur(5px);}
@@ -25,13 +29,16 @@ body{
         max-width: 70rem;
         margin: 0 auto;
     }
+        .navRight{display: flex;}
         .navRight ul{display: flex;}
         .navRight ul li a{
             display: flex;
             padding: 20px;
             text-decoration: none;
             color: #040618;
+            font-family: 'Nata Sans';
         }
+        .menuBtn{display: none;}
 
 /* Header Styling */
 .headerContainer{
@@ -56,6 +63,7 @@ body{
 
     .projectOverview{
         text-align: center;
+        margin-bottom: 3vh;
     }
     .projectPostContainer{
         display: flex;
@@ -68,37 +76,43 @@ body{
             max-width: 30%;
             background: #ebedff;
             border-radius: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
         .projectThumb{
             width: 100%;
             aspect-ratio: 16/9;
             border-radius: 1rem;
         }
+        .projectTitle{
+            font-family: 'Poppins';
+        }
         .projectPost button{
             background: none;
-            padding: 1vw;
+            padding: .5vw 1vw;
+            margin-top: 1.2vw;
             border: 1px solid #a9b2fc;
             border-radius: 100rem;
-            color: #a9b2fc;
+            color: #7c7c7c;
         } .projectPost .btnHigh{background: #a9b2fc; color: #040618;}
 
 /* Baloon */
 .baloon{
     display: flex;
     max-width: max-content;
-    background: #ffdbdb;
+    background: #dddddd;
     align-items: center;
     padding: 1%;
     gap: 10px;
     border-radius: .5rem;
-} 
+}
+/* Baloon Color */
+#email{background: #ffe8e8;} #github{background: #a4a6ac;} #telegram{background: #b8cfff;} #youtube{background: #ff8f8f;} #instagram{background: #fdb6ff;}
 
 /* footer */
-.footerContainer{
-    background-image: linear-gradient( #f5f5f5, #dcd3ff);
-}
+/* .footerContainer{} */
     footer{
         display: flex;
         gap: 10vw;
-
     }

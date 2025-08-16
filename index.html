@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,100,0,-25&icon_names=contact_mail" />
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="animate.css">
     <script src="https://kit.fontawesome.com/617c758b83.js" crossorigin="anonymous"></script>
 </head>
@@ -24,10 +25,14 @@
         <nav>
             <div class="navLeft"><img style="height: 2.5rem;" src="src/logoX.png" alt="pinothorium works logo" class="logoBrand"></div>
             <div class="navRight">
-                <ul>
+                <ul class="menuDesk">
                     <li><a href="https://pinothorium.blogspot.com">Blog</a></li>
                     <li><a href="msdad.html">Project</a></li>
                     <li><a href="msdad.html">CV</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-lightbulb"></i></a></li>
+                    <li class="menuBtn"><a><i class="fa-solid fa-bars"></i></a></li>
                 </ul>
             </div>
         </nav>
@@ -36,102 +41,153 @@
     <!-- Project -->
      <div class="projectContainer safeArea">
         <div class="projectOverview">
-            <h2>/pro·yek/</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h2>Project</h2>
+            <p>A project created by an individual or team.</p>
         </div>
         <div class="projectPostContainer">
             <div class="projectPost">
                 <img  class="projectThumb" src="src/arisunostageSnap.png" alt="hidup blonde">
-                <h3 class="projectTitle">Alice Stage Website</h3>
-                <p class="projectDesc">Laman Statis untuk <i>game 'ありすのステージ/Alice Stage'</i>.</p>
+                <h3 class="projectTitle">Alice on Stage Website</h3>
+                <p class="projectDesc">Laman Statis untuk <i>game 'ありすのステージ/Alice on Stage'</i>.</p>
+                <div class="techUse">
+                    <i class="fa-brands fa-html5" id="html"></i> <i id="css" class="fa-brands fa-css"></i>
+                </div>
                 <div class="projectButtonContainer">
-                    <button class="btnHigh">Demo</button>
-                    <button>Source Code</button>
+                    <button class="btnHigh"><i class="fa-solid fa-right-to-bracket icoText"></i>Demo</button>
+                    <button><i class="fa-solid fa-up-right-from-square icoText"></i>Source Code</button>
                 </div>
             </div>
             <div class="projectPost">
-                <img class="projectThumb" src="src/opsuSnap.png" alt="hidup blonde">
-                <h3 class="projectTitle">opsu! Website</h3>
-                <p class="projectDesc">Laman Statis untuk <i>game 'opsu!'</i>.</p>
+                <div>
+                    <img class="projectThumb" src="src/opsuSnap.png" alt="hidup blonde">
+                    <h3 class="projectTitle">opsu! Website</h3>
+                    <p class="projectDesc">Laman Statis untuk <i>game 'opsu!'</i>.</p>
+                    <div class="techUse">
+                        <i class="fa-brands fa-html5" id="html"></i> <i id="css" class="fa-brands fa-css"></i>
+                    </div>
+                </div>
                 <div class="projectButtonContainer">
-                    <button class="btnHigh">Demo</button>
-                    <button>Source Code</button>
+                    <button class="btnHigh"><i class="fa-solid fa-right-to-bracket icoText"></i>Demo</button>
+                    <button><i class="fa-solid fa-up-right-from-square icoText"></i>Source Code</button>
                 </div>
             </div>
             <div class="projectPost">
-                <img class="projectThumb" src="src/annurbipaSnap.png" alt="hidup blonde">
-                <h3 class="projectTitle">Annurbilpa</h3>
-                <p class="projectDesc">Portal informasi Ekstrakurikuler</p>
-                <div class="projectButtonContainer">
-                    <button class="btnHigh">Demo</button>
-                    <button>Source Code</button>
+                <div>
+                    <img class="projectThumb" src="src/annurbipaSnap.png" alt="hidup blonde">
+                    <h3 class="projectTitle">Annurbilpa</h3>
+                    <p class="projectDesc">Portal informasi Ekstrakurikuler</p>
+                    <div class="techUse">
+                        <i class="fa-brands fa-html5" id="html"></i> <i id="css" class="fa-brands fa-css"></i> <i id="js" class="fa-brands fa-js"></i>
+                    </div>
                 </div>
-            </div>
-             <div class="projectPost">
-                <img class="projectThumb" src="src/def.png" alt="hidup blonde">
-                <h3 class="projectTitle">Photography</h3>
-                <p class="projectDesc">Click button bellow to see up-to-date project</p>
-                <div class="projectButtonContainer">
-                    <button class="btnHigh">Demo</button>
-                </div>
-            </div>
-             <div class="projectPost">
-                <img class="projectThumb" src="src/def.png" alt="hidup blonde">
-                <h3 class="projectTitle">GFX</h3>
-                <p class="projectDesc">Click button bellow to see up-to-date project</p>
-                <div class="projectButtonContainer">
-                    <button class="btnHigh">Demo</button>
+                    <div class="projectButtonContainer">
+                    <button class="btnHigh"><i class="fa-solid fa-right-to-bracket icoText"></i>Demo</button>
+                    <button><i class="fa-solid fa-up-right-from-square icoText"></i>Source Code</button>
                 </div>
             </div>
             <div class="projectPost">
-                <img class="projectThumb" src="src/def.png" alt="hidup blonde">
-                <h3 class="projectTitle">and many more..</h3>
-                <p class="projectDesc">Click button bellow to see up-to-date project</p>
-                <div class="projectButtonContainer">
-                    <button class="btnHigh">Details</button>
+                <div>
+                    <img class="projectThumb" src="src/def.png" alt="hidup blonde">
+                    <h3 class="projectTitle">and many more..</h3>
+                    <p class="projectDesc">Click button bellow to see up-to-date project</p>
+                </div>
+                    <div class="projectButtonContainer">
+                    <button class="btnHigh"><i class="fa-solid fa-up-right-from-square icoText"></i>Details</button>
                 </div>
             </div>
         </div>
      </div>
 <div class="divider"></div>
+     <!-- Gallery -->
+      <div class="galleryContainer safeArea">
+        <div class="projectOverview">
+            <h2>Gallery</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="projectPostContainer galleryPostContainer">
+            <div class="projectPost galleryPost">
+                <img class="projectThumb" src="src/galThumb.png" alt="hidup blonde">
+                <h3 class="projectTitle">Photography</h3>
+                <p class="projectDesc">Click button bellow to see up-to-date project</p>
+                <div class="projectButtonContainer">
+                    <button class="btnHigh"><i class="fa-regular fa-circle-right icoText"></i>Detail</button>
+                </div>
+        </div>
+        <div class="projectPost">
+                <img class="projectThumb" src="src/fxThumb.png" alt="hidup blonde">
+                <h3 class="projectTitle">GFX</h3>
+                <p class="projectDesc">Click button bellow to see up-to-date project</p>
+                <div class="projectButtonContainer">
+                    <button class="btnHigh"><i class="fa-regular fa-circle-right icoText"></i>Detail</button>
+                </div>
+            </div>
+      </div>
+<div class="divider"></div>
      <!-- Contact -->
       <div class="contactContainer safeArea">
         <div class="projectOverview">
-                <h2>/ko·nek·si/</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Other Links</h2>
+                <p>find us on other platforms</p>
             </div>
-            
-            <div class="baloon">
-                <i class="fa-regular fa-envelope"></i>
-                <div class="contxt">
-                    <p>Email <br> <b>hub.pino@gmail.com</b></p>
+            <div class="projectPostContainer baloonContainer">
+                <div class="baloon" id="email">
+                    <i class="fa-regular fa-envelope"></i>
+                    <div class="contxt">
+                        <p>Email <br> <b>hub.pino@gmail.com</b></p>
+                    </div>
+                </div>
+                <div class="baloon" id="github">
+                    <i class="fa-brands fa-github"></i>
+                    <div class="contxt">
+                        <p>GitHub <br> <b>Kanashifumiku</b></p>
+                    </div>
+                </div>
+                <div class="baloon" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                    <div class="contxt">
+                        <p>Telegram Channel <br> <b>Pinothorium</b></p>
+                    </div>
+                </div>
+                <div class="baloon" id="youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                    <div class="contxt">
+                        <p>YouTube Channel <br> <b>Pinothorium</b></p>
+                    </div>
+                </div>
+                <div class="baloon" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <div class="contxt">
+                        <p>Instagram <br> <b>pinothorium.works</b></p>
+                    </div>
                 </div>
             </div>
        </div>
+<div class="divider"></div>
 <div class="divider"></div>
     <!-- footer -->
      <div class="footerContainer">
         <footer class="safeArea">
             <div class="ident">
                 <img style="height: 2.5rem;" src="src/LogoX.png" alt="">
-                <p>Kanashifumiku, knshfmku, kanassuwa are the same entity</p>
+                <p>Release 2025<br>Kanashifumiku, knshfmku, kanassuwa are the same entity</p>
             </div>
                 <div class="footerFlexL">
                     <ul>
                         <li>Pinothorium Works</li>
                         <li><a href="">About</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="">Project</a></li>
+                        <li><a href="">Blogspots</a></li>
+                        <li><a href="">Lihat dalam Bahasa Indonesia !</a></li>
                         <br>
-                        <li>Academic Publication</li>
-                        <li><a href="">Release</a></li>
-                        <li><a href="">Journal</a></li>
-                        <li><a href="">About</a></li>
+                        
                     </ul>
                 </div>
                 <div class="footerFlexR">
                     <ul>
-                       <p>Publikasi 2025</p>
+                        <li>Academic Publication</li>
+                        <li><a href="">Release</a></li>
+                        <li><a href="">Journal</a></li>
+                        <li><a href="">About</a></li>                       
                     </ul>
                 </div>
         </footer>

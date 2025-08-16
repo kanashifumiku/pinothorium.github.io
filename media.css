@@ -1,0 +1,18 @@
+@media only screen and (max-width: 654px) {
+    /* Reset & Global */
+    .safeArea{padding: 0 5vw;}
+    /* Navigation Styling */
+    .navRight .menuDesk{display: none;}
+    .menuBtn{display: flex;}
+    /* project */
+    .projectPostContainer{
+        flex-direction: column;
+    }
+    .projectPost{
+        max-width: 100%;
+    }
+    /* footer */
+    footer{
+        flex-direction: column;
+    }
+}
